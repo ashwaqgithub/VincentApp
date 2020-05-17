@@ -13,6 +13,8 @@
 		420A8FB5246DED3E00E22DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420A8FB4246DED3E00E22DAC /* Assets.xcassets */; };
 		420A8FB8246DED3E00E22DAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420A8FB7246DED3E00E22DAC /* Preview Assets.xcassets */; };
 		420A8FBB246DED3E00E22DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420A8FB9246DED3E00E22DAC /* LaunchScreen.storyboard */; };
+		420A8FC3246FA17800E22DAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A8FC2246FA17800E22DAC /* User.swift */; };
+		423CFE502470AD4700C3CCF2 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CFE4F2470AD4700C3CCF2 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		420A8FB7246DED3E00E22DAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		420A8FBA246DED3E00E22DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		420A8FBC246DED3E00E22DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420A8FC2246FA17800E22DAC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		423CFE4F2470AD4700C3CCF2 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				420A8FAE246DED3A00E22DAC /* AppDelegate.swift */,
 				420A8FB0246DED3A00E22DAC /* SceneDelegate.swift */,
 				420A8FB2246DED3A00E22DAC /* ContentView.swift */,
+				423CFE4F2470AD4700C3CCF2 /* SignUpView.swift */,
+				420A8FC2246FA17800E22DAC /* User.swift */,
 				420A8FB4246DED3E00E22DAC /* Assets.xcassets */,
 				420A8FB9246DED3E00E22DAC /* LaunchScreen.storyboard */,
 				420A8FBC246DED3E00E22DAC /* Info.plist */,
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420A8FC3246FA17800E22DAC /* User.swift in Sources */,
+				423CFE502470AD4700C3CCF2 /* SignUpView.swift in Sources */,
 				420A8FAF246DED3A00E22DAC /* AppDelegate.swift in Sources */,
 				420A8FB1246DED3A00E22DAC /* SceneDelegate.swift in Sources */,
 				420A8FB3246DED3A00E22DAC /* ContentView.swift in Sources */,
@@ -295,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ASh.VincentApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ASh.VincentApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
