@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		420A8FAF246DED3A00E22DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A8FAE246DED3A00E22DAC /* AppDelegate.swift */; };
 		420A8FB1246DED3A00E22DAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A8FB0246DED3A00E22DAC /* SceneDelegate.swift */; };
-		420A8FB3246DED3A00E22DAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A8FB2246DED3A00E22DAC /* ContentView.swift */; };
+		420A8FB3246DED3A00E22DAC /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A8FB2246DED3A00E22DAC /* SignIn.swift */; };
 		420A8FB5246DED3E00E22DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420A8FB4246DED3E00E22DAC /* Assets.xcassets */; };
 		420A8FB8246DED3E00E22DAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420A8FB7246DED3E00E22DAC /* Preview Assets.xcassets */; };
 		420A8FBB246DED3E00E22DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420A8FB9246DED3E00E22DAC /* LaunchScreen.storyboard */; };
 		420A8FC3246FA17800E22DAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A8FC2246FA17800E22DAC /* User.swift */; };
+		42395D7024736EDC00C85B3D /* NetowrkableAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42395D6F24736EDC00C85B3D /* NetowrkableAuth.swift */; };
+		42395D7224736EE800C85B3D /* NetworkingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42395D7124736EE800C85B3D /* NetworkingImages.swift */; };
+		42395D7424736EF200C85B3D /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42395D7324736EF200C85B3D /* Networking.swift */; };
+		42395D7624736F0500C85B3D /* NetworkingSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42395D7524736F0500C85B3D /* NetworkingSignUp.swift */; };
 		423CFE502470AD4700C3CCF2 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CFE4F2470AD4700C3CCF2 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +25,16 @@
 		420A8FAB246DED3A00E22DAC /* VincentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VincentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		420A8FAE246DED3A00E22DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		420A8FB0246DED3A00E22DAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		420A8FB2246DED3A00E22DAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		420A8FB2246DED3A00E22DAC /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		420A8FB4246DED3E00E22DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		420A8FB7246DED3E00E22DAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		420A8FBA246DED3E00E22DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		420A8FBC246DED3E00E22DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		420A8FC2246FA17800E22DAC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		42395D6F24736EDC00C85B3D /* NetowrkableAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetowrkableAuth.swift; sourceTree = "<group>"; };
+		42395D7124736EE800C85B3D /* NetworkingImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingImages.swift; sourceTree = "<group>"; };
+		42395D7324736EF200C85B3D /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		42395D7524736F0500C85B3D /* NetworkingSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingSignUp.swift; sourceTree = "<group>"; };
 		423CFE4F2470AD4700C3CCF2 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,9 +70,13 @@
 			children = (
 				420A8FAE246DED3A00E22DAC /* AppDelegate.swift */,
 				420A8FB0246DED3A00E22DAC /* SceneDelegate.swift */,
-				420A8FB2246DED3A00E22DAC /* ContentView.swift */,
+				420A8FB2246DED3A00E22DAC /* SignIn.swift */,
+				42395D7524736F0500C85B3D /* NetworkingSignUp.swift */,
 				423CFE4F2470AD4700C3CCF2 /* SignUpView.swift */,
 				420A8FC2246FA17800E22DAC /* User.swift */,
+				42395D6F24736EDC00C85B3D /* NetowrkableAuth.swift */,
+				42395D7124736EE800C85B3D /* NetworkingImages.swift */,
+				42395D7324736EF200C85B3D /* Networking.swift */,
 				420A8FB4246DED3E00E22DAC /* Assets.xcassets */,
 				420A8FB9246DED3E00E22DAC /* LaunchScreen.storyboard */,
 				420A8FBC246DED3E00E22DAC /* Info.plist */,
@@ -152,11 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42395D7024736EDC00C85B3D /* NetowrkableAuth.swift in Sources */,
 				420A8FC3246FA17800E22DAC /* User.swift in Sources */,
 				423CFE502470AD4700C3CCF2 /* SignUpView.swift in Sources */,
+				42395D7424736EF200C85B3D /* Networking.swift in Sources */,
 				420A8FAF246DED3A00E22DAC /* AppDelegate.swift in Sources */,
+				42395D7624736F0500C85B3D /* NetworkingSignUp.swift in Sources */,
+				42395D7224736EE800C85B3D /* NetworkingImages.swift in Sources */,
 				420A8FB1246DED3A00E22DAC /* SceneDelegate.swift in Sources */,
-				420A8FB3246DED3A00E22DAC /* ContentView.swift in Sources */,
+				420A8FB3246DED3A00E22DAC /* SignIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
